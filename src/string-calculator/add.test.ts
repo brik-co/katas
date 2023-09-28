@@ -1,4 +1,4 @@
-import { expect, test, describe } from 'vitest'
+import { expect, test, describe } from 'vitest';
 import { add } from './add';
 
 describe('add should', () => {
@@ -14,4 +14,3 @@ describe('add should', () => {
     expect(add('1,2')).toEqual(3);
   });
 });
-
