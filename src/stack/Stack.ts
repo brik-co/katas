@@ -32,4 +32,4 @@ export class Stack<T> {
   }
 }
 
-export class StackFullError extends Error { }
+export class StackFullError extends Error {}
